@@ -1,0 +1,10 @@
+@import "elements.less";
+@primary-color: #d24344;
+@second-color: hsl(270,75%,85%);
+html {
+   height: 100%;
+    .gradient(#F5F5F5, @primary-color, @second-color); 
+}
+.wrapped-column {
+    .columns(250px, 0, 50px, #EEE, solid, 1px);
+}
